@@ -1,0 +1,13 @@
+{
+  "name": "cypress-ts-node-ignore-bug",
+  "scripts": {
+    "test-a": "yarn workspace a test",
+    "test-b": "yarn workspace b test"
+  },
+  "workspaces": [
+    "packages/a",
+    "packages/b",
+    "packages/c"
+  ],
+  "packageManager": "yarn@3.5.0"
+}

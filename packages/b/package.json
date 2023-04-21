@@ -1,0 +1,11 @@
+{
+  "name": "b",
+  "scripts": {
+    "test": "NODE_OPTIONS=--preserve-symlinks cypress run"
+  },
+  "dependencies": {
+    "c": "workspace:*",
+    "cypress": "12.9.0",
+    "typescript": "^5.0.4"
+  }
+}

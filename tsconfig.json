@@ -1,0 +1,13 @@
+{
+  "ts-node": {
+    "ignore": [
+      // looks a bit wack cuz I'm on Windows - the `[\\\\/]` would just be `/` otherwise
+      "(?:^|[\\\\/])node_modules(?![\\\\/]c)"
+    ],
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "esnext",
+      "esModuleInterop": true
+    }
+  }
+}
